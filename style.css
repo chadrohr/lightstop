@@ -1,0 +1,58 @@
+body {
+  background-color: #222222;
+  background: repeating-linear-gradient(45deg, #2b2b2b 0%, #2b2b2b 10%, #222222 0%, #222222 50%) 0 / 15px 15px;
+}
+
+.lights-container{
+  background-color: #3c3c3c;
+  width: 100px;
+  padding: 5px;
+}
+
+.box {
+    height: 90px;
+    width: 90px;
+    border-radius: 100%;
+    margin: 5px;
+}
+.red {
+    background-color: red;
+    background: linear-gradient(
+      rgba(255, 0, 0, 0.45), 
+      rgba(255, 0, 0, 0.45)
+    ), url(https://diffuserspecialist.com/wp-content/uploads/2012/12/Flatsheet-Diffuser-Specialist-Fluorescent-Light-Covers2.jpg);
+    background-size: contain;
+}
+.green {
+    background-color: green;
+    background: linear-gradient(
+      rgba(0, 255, 0, 0.45), 
+      rgba(0, 255, 0, 0.45)
+    ), url(https://diffuserspecialist.com/wp-content/uploads/2012/12/Flatsheet-Diffuser-Specialist-Fluorescent-Light-Covers2.jpg);
+    background-size: contain;
+}
+.yellow{
+    background-color: yellow;
+    background: linear-gradient(
+      rgba(255, 255, 0, 0.45), 
+      rgba(255, 255, 0, 0.45)
+    ), url(https://diffuserspecialist.com/wp-content/uploads/2012/12/Flatsheet-Diffuser-Specialist-Fluorescent-Light-Covers2.jpg);
+    background-size: contain;
+}
+
+.pole {
+    height: 100px;
+    width: 50px;
+    margin-left: 30px;
+    background-color: #333;
+}
+
+.red:hover{
+  box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #FF1177, 0 0 35px #FF1177, 0 0 40px #FF1177, 0 0 50px #FF1177, 0 0 75px #FF1177;
+}
+.green:hover{
+  box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #11FF77, 0 0 35px #11FF77, 0 0 40px #11FF77, 0 0 50px #11FF77, 0 0 75px #11FF77;
+}
+.yellow:hover{
+  box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #FFff77, 0 0 35px #FFff77, 0 0 40px #FFff77, 0 0 50px #FFff77, 0 0 75px #FFff77;
+}
